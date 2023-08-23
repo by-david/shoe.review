@@ -1,0 +1,137 @@
+*{
+    background-color: antiquewhite;
+}
+
+#header{
+    text-align: center;
+}
+
+#converse{
+    float: left;
+    width: 31%;
+    padding-right: 40px;
+}
+
+#brogue{
+    float: left;
+    width: 31%;
+}
+
+#sambas{
+    float: right;
+    width: 31%;
+}
+
+#loafers{
+    float: left;
+    width: 35%;
+    margin-top: 50px;
+    margin-left: 12%;
+}
+
+#dunks{
+    float: right;
+    width: 35%;
+    margin-top: 50px;
+    margin-right: 12%;
+}
+
+img{
+    height: 200px;
+    margin-right: 5px;
+    border-radius: 10%;
+    border: 3px solid black;
+}
+
+h1{
+    font-size: 4rem;
+}
+h2{
+    font-size: 2rem;
+    text-decoration: underline;
+}
+
+.con-img{
+    float: left;
+}
+
+.bro-img{
+    float: left;
+}
+
+.sam-img{
+    float: left;
+}
+
+.loa-img{
+    float: left;
+}
+
+.dun-img{
+    float: left;
+}
+
+p{
+    font-size: larger;
+}
+
+.hub{
+    color: rgb(255, 0, 0);
+}
+
+.converse{
+    color: rgb(255, 0, 0);
+}
+
+.brogue{
+    color: rgb(255, 0, 0);
+}
+
+.sambas{
+    color: rgb(255, 0, 0);
+}
+
+.loafers{
+    color: rgb(255, 0, 0);
+}
+
+.dunks{
+    color: rgb(255, 0, 0);
+}
+
+@media (max-width:600px){
+    #converse{
+        width: 100%;
+    }
+    #dunks{
+        width: 100%;
+        margin-top: 0px;
+        margin-right: 0%;
+    }
+    #sambas{
+        width: 100%;
+    }
+    #brogue{
+        width: 100%;
+    }
+    #loafers{
+        width: 100%;
+        margin-top: 0px;
+        margin-left: 0%;
+    }
+    img{
+        width: 100%;
+        margin-right: 5px;
+        height: fit-content;
+        border-radius: 10%;
+        margin-bottom: 10px;
+    }
+    h2{
+        text-align: center;
+        text-decoration: underline;
+    }
+
+    p{
+        text-align: center;
+    }
+}
